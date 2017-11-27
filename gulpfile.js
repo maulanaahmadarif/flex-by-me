@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
-const concat = require('gulp-concat');
+const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 
@@ -12,6 +12,7 @@ gulp.task('sass:dev', () => {
       browsers: ['last 2 versions'],
       cascade: false,
     }))
+    .pipe(rename('style.css'))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./dist/css'));
 });
@@ -25,6 +26,7 @@ gulp.task('sass:build', () => {
       browsers: ['last 2 versions'],
       cascade: true,
     }))
+    .pipe(rename('style.min.css'))
     .pipe(gulp.dest('./dist/css'));
 });
 

@@ -109,16 +109,176 @@
 .fx-11 { @include fx($fx11Width); }
 .fx-12 { @include fx($fx12Width); }
 
-.fx-o-first { @include order(-1); }
-.fx-o-1 { @include order(1); }
-.fx-o-2 { @include order(2); }
-.fx-o-3 { @include order(3); }
-.fx-o-4 { @include order(4); }
-.fx-o-5 { @include order(5); }
-.fx-o-6 { @include order(6); }
-.fx-o-7 { @include order(7); }
-.fx-o-8 { @include order(8); }
-.fx-o-9 { @include order(9); }
-.fx-o-10 { @include order(10); }
-.fx-o-11 { @include order(11); }
-.fx-o-12 { @include order(12); }
+.o-first { @include order(-1); }
+.o-1 { @include order(1); }
+.o-2 { @include order(2); }
+.o-3 { @include order(3); }
+.o-4 { @include order(4); }
+.o-5 { @include order(5); }
+.o-6 { @include order(6); }
+.o-7 { @include order(7); }
+.o-8 { @include order(8); }
+.o-9 { @include order(9); }
+.o-10 { @include order(10); }
+.o-11 { @include order(11); }
+.o-12 { @include order(12); }
+
+@media (min-width: 576px){
+    .fx-sm {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .fx-sm-auto {
+        flex: 0 0 auto;
+        width: auto;
+        max-width: none;
+    }
+
+    .fx-sm-1 { @include fx($fx1Width); }
+    .fx-sm-2 { @include fx($fx2Width); }
+    .fx-sm-3 { @include fx($fx3Width); }
+    .fx-sm-4 { @include fx($fx4Width); }
+    .fx-sm-5 { @include fx($fx5Width); }
+    .fx-sm-6 { @include fx($fx6Width); }
+    .fx-sm-7 { @include fx($fx7Width); }
+    .fx-sm-8 { @include fx($fx8Width); }
+    .fx-sm-9 { @include fx($fx9Width); }
+    .fx-sm-10 { @include fx($fx10Width); }
+    .fx-sm-11 { @include fx($fx11Width); }
+    .fx-sm-12 { @include fx($fx12Width); }
+
+    .o-sm-first { @include order(-1); }
+    .o-sm-1 { @include order(1); }
+    .o-sm-2 { @include order(2); }
+    .o-sm-3 { @include order(3); }
+    .o-sm-4 { @include order(4); }
+    .o-sm-5 { @include order(5); }
+    .o-sm-6 { @include order(6); }
+    .o-sm-7 { @include order(7); }
+    .o-sm-8 { @include order(8); }
+    .o-sm-9 { @include order(9); }
+    .o-sm-10 { @include order(10); }
+    .o-sm-11 { @include order(11); }
+    .o-sm-12 { @include order(12); }
+}
+
+@media (min-width: 768px){
+    .fx-md {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .fx-md-auto {
+        flex: 0 0 auto;
+        width: auto;
+        max-width: none;
+    }
+
+    .fx-md-1 { @include fx($fx1Width); }
+    .fx-md-2 { @include fx($fx2Width); }
+    .fx-md-3 { @include fx($fx3Width); }
+    .fx-md-4 { @include fx($fx4Width); }
+    .fx-md-5 { @include fx($fx5Width); }
+    .fx-md-6 { @include fx($fx6Width); }
+    .fx-md-7 { @include fx($fx7Width); }
+    .fx-md-8 { @include fx($fx8Width); }
+    .fx-md-9 { @include fx($fx9Width); }
+    .fx-md-10 { @include fx($fx10Width); }
+    .fx-md-11 { @include fx($fx11Width); }
+    .fx-md-12 { @include fx($fx12Width); }
+
+    .o-md-first { @include order(-1); }
+    .o-md-1 { @include order(1); }
+    .o-md-2 { @include order(2); }
+    .o-md-3 { @include order(3); }
+    .o-md-4 { @include order(4); }
+    .o-md-5 { @include order(5); }
+    .o-md-6 { @include order(6); }
+    .o-md-7 { @include order(7); }
+    .o-md-8 { @include order(8); }
+    .o-md-9 { @include order(9); }
+    .o-md-10 { @include order(10); }
+    .o-md-11 { @include order(11); }
+    .o-md-12 { @include order(12); }
+}
+
+@media (min-width: 992px){
+    .fx-lg {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .fx-lg-auto {
+        flex: 0 0 auto;
+        width: auto;
+        max-width: none;
+    }
+
+    .fx-lg-1 { @include fx($fx1Width); }
+    .fx-lg-2 { @include fx($fx2Width); }
+    .fx-lg-3 { @include fx($fx3Width); }
+    .fx-lg-4 { @include fx($fx4Width); }
+    .fx-lg-5 { @include fx($fx5Width); }
+    .fx-lg-6 { @include fx($fx6Width); }
+    .fx-lg-7 { @include fx($fx7Width); }
+    .fx-lg-8 { @include fx($fx8Width); }
+    .fx-lg-9 { @include fx($fx9Width); }
+    .fx-lg-10 { @include fx($fx10Width); }
+    .fx-lg-11 { @include fx($fx11Width); }
+    .fx-lg-12 { @include fx($fx12Width); }
+
+    .o-lg-first { @include order(-1); }
+    .o-lg-1 { @include order(1); }
+    .o-lg-2 { @include order(2); }
+    .o-lg-3 { @include order(3); }
+    .o-lg-4 { @include order(4); }
+    .o-lg-5 { @include order(5); }
+    .o-lg-6 { @include order(6); }
+    .o-lg-7 { @include order(7); }
+    .o-lg-8 { @include order(8); }
+    .o-lg-9 { @include order(9); }
+    .o-lg-10 { @include order(10); }
+    .o-lg-11 { @include order(11); }
+    .o-lg-12 { @include order(12); }
+}
+
+@media (min-width: 1200px){
+    .fx-xl {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .fx-xl-auto {
+        flex: 0 0 auto;
+        width: auto;
+        max-width: none;
+    }
+
+    .fx-xl-1 { @include fx($fx1Width); }
+    .fx-xl-2 { @include fx($fx2Width); }
+    .fx-xl-3 { @include fx($fx3Width); }
+    .fx-xl-4 { @include fx($fx4Width); }
+    .fx-xl-5 { @include fx($fx5Width); }
+    .fx-xl-6 { @include fx($fx6Width); }
+    .fx-xl-7 { @include fx($fx7Width); }
+    .fx-xl-8 { @include fx($fx8Width); }
+    .fx-xl-9 { @include fx($fx9Width); }
+    .fx-xl-10 { @include fx($fx10Width); }
+    .fx-xl-11 { @include fx($fx11Width); }
+    .fx-xl-12 { @include fx($fx12Width); }
+
+    .o-xl-first { @include order(-1); }
+    .o-xl-1 { @include order(1); }
+    .o-xl-2 { @include order(2); }
+    .o-xl-3 { @include order(3); }
+    .o-xl-4 { @include order(4); }
+    .o-xl-5 { @include order(5); }
+    .o-xl-6 { @include order(6); }
+    .o-xl-7 { @include order(7); }
+    .o-xl-8 { @include order(8); }
+    .o-xl-9 { @include order(9); }
+    .o-xl-10 { @include order(10); }
+    .o-xl-11 { @include order(11); }
+    .o-xl-12 { @include order(12); }
+}
