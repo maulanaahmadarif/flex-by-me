@@ -8,11 +8,11 @@ There are 12 grid can be used to create the layout, simply refer the images belo
 
 ### Use .fx to auto layout
 
-fx class create layout base on the unused width
+`.fx` class create layout base on the unused width
 
 ![alt text](https://github.com/maulanaahmadarif/flex-by-me/blob/master/dist/images/example1.png)
 
-```css
+```html
 <div class="row-fx">
     <div class="fx">
         <code>.fx</code>
@@ -25,7 +25,7 @@ fx class create layout base on the unused width
 
 ![alt text ](https://github.com/maulanaahmadarif/flex-by-me/blob/master/dist/images/example2.png)
 
-```css
+```html
 <div>
     <div class="row-fx">
         <div class="fx-2">
