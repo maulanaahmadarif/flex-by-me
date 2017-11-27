@@ -26,31 +26,28 @@ There are 12 grid can be used to create the layout, simply refer the images belo
 ![alt text ](https://github.com/maulanaahmadarif/flex-by-me/blob/master/dist/images/example2.png)
 
 ```html
-<div>
-    <div class="row-fx">
-        <div class="fx-2">
-            <code>.fx-2</div>
-        </div>
-        <div class="fx">
-            <code>.fx</div>
-        </div>
-        <div class="fx">
-            <code>.fx</div>
-        </div>
+<div class="row-fx">
+    <div class="fx-2">
+        <code>.fx-2</div>
+    </div>
+    <div class="fx">
+        <code>.fx</div>
+    </div>
+    <div class="fx">
+        <code>.fx</div>
     </div>
 </div>
 
-<div>
-    <div class="row-fx">
-        <div class="fx-6">
-            <code>.fx-6</div>
-        </div>
-        <div class="fx">
-            <code>.fx</div>
-        </div>
-        <div class="fx">
-            <code>.fx</div>
-        </div>
+
+<div class="row-fx">
+    <div class="fx-6">
+        <code>.fx-6</div>
+    </div>
+    <div class="fx">
+        <code>.fx</div>
+    </div>
+    <div class="fx">
+        <code>.fx</div>
     </div>
 </div>
 ```
