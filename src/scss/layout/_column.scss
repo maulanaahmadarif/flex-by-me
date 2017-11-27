@@ -1,0 +1,124 @@
+.fx,
+.fx-1,
+.fx-10,
+.fx-11,
+.fx-12,
+.fx-2,
+.fx-3,
+.fx-4,
+.fx-5,
+.fx-6,
+.fx-7,
+.fx-8,
+.fx-9,
+.fx-auto,
+.fx-lg,
+.fx-lg-1,
+.fx-lg-10,
+.fx-lg-11,
+.fx-lg-12,
+.fx-lg-2,
+.fx-lg-3,
+.fx-lg-4,
+.fx-lg-5,
+.fx-lg-6,
+.fx-lg-7,
+.fx-lg-8,
+.fx-lg-9,
+.fx-lg-auto,
+.fx-md,
+.fx-md-1,
+.fx-md-10,
+.fx-md-11,
+.fx-md-12,
+.fx-md-2,
+.fx-md-3,
+.fx-md-4,
+.fx-md-5,
+.fx-md-6,
+.fx-md-7,
+.fx-md-8,
+.fx-md-9,
+.fx-md-auto,
+.fx-sm,
+.fx-sm-1,
+.fx-sm-10,
+.fx-sm-11,
+.fx-sm-12,
+.fx-sm-2,
+.fx-sm-3,
+.fx-sm-4,
+.fx-sm-5,
+.fx-sm-6,
+.fx-sm-7,
+.fx-sm-8,
+.fx-sm-9,
+.fx-sm-auto,
+.fx-xl,
+.fx-xl-1,
+.fx-xl-10,
+.fx-xl-11,
+.fx-xl-12,
+.fx-xl-2,
+.fx-xl-3,
+.fx-xl-4,
+.fx-xl-5,
+.fx-xl-6,
+.fx-xl-7,
+.fx-xl-8,
+.fx-xl-9,
+.fx-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: $paddingSide;
+    padding-left: $paddingSide;
+}
+
+.fx {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.fx-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+}
+
+@mixin fx($width) {
+    flex: 0 0 $width;
+    max-width: $width;
+}
+
+@mixin order($order) {
+    order: $order;
+}
+
+.fx-1 { @include fx($fx1Width); }
+.fx-2 { @include fx($fx2Width); }
+.fx-3 { @include fx($fx3Width); }
+.fx-4 { @include fx($fx4Width); }
+.fx-5 { @include fx($fx5Width); }
+.fx-6 { @include fx($fx6Width); }
+.fx-7 { @include fx($fx7Width); }
+.fx-8 { @include fx($fx8Width); }
+.fx-9 { @include fx($fx9Width); }
+.fx-10 { @include fx($fx10Width); }
+.fx-11 { @include fx($fx11Width); }
+.fx-12 { @include fx($fx12Width); }
+
+.fx-o-first { @include order(-1); }
+.fx-o-1 { @include order(1); }
+.fx-o-2 { @include order(2); }
+.fx-o-3 { @include order(3); }
+.fx-o-4 { @include order(4); }
+.fx-o-5 { @include order(5); }
+.fx-o-6 { @include order(6); }
+.fx-o-7 { @include order(7); }
+.fx-o-8 { @include order(8); }
+.fx-o-9 { @include order(9); }
+.fx-o-10 { @include order(10); }
+.fx-o-11 { @include order(11); }
+.fx-o-12 { @include order(12); }
