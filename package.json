@@ -1,0 +1,16 @@
+{
+  "name": "flex-by-me",
+  "version": "1.0.0",
+  "description": "Flexbox framework layout",
+  "main": "index.js",
+  "repository": "https://github.com/maulanaahmadarif/flex-by-me.git",
+  "author": "type0",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  }
+}
