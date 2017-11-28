@@ -6,6 +6,8 @@ The CSS3 Flexible Box, or flexbox, is a layout mode intended to accommodate diff
 
 There are 12 grid can be used to create the layout, simply refer the images below:
 
+![alt text](https://github.com/maulanaahmadarif/flex-by-me/blob/master/dist/images/example3.png)
+
 ### Use .fx to auto layout
 
 `.fx` class create layout base on the unused width
@@ -15,10 +17,10 @@ There are 12 grid can be used to create the layout, simply refer the images belo
 ```html
 <div class="row-fx">
     <div class="fx">
-        <code>.fx</code>
+        .fx
     </div>
     <div class="fx">
-        <code>.fx</code>
+        .fx
     </div>
 </div>
 ```
@@ -28,26 +30,50 @@ There are 12 grid can be used to create the layout, simply refer the images belo
 ```html
 <div class="row-fx">
     <div class="fx-2">
-        <code>.fx-2</div>
+        .fx-2
     </div>
     <div class="fx">
-        <code>.fx</div>
+        .fx
     </div>
     <div class="fx">
-        <code>.fx</div>
+        .fx
     </div>
 </div>
 
 
 <div class="row-fx">
     <div class="fx-6">
-        <code>.fx-6</div>
+        .fx-6
     </div>
     <div class="fx">
-        <code>.fx</div>
+        .fx
     </div>
     <div class="fx">
-        <code>.fx</div>
+        .fx
+    </div>
+</div>
+```
+
+### Adjust grid positioning
+
+You can justify your layout, check the example below:
+
+![alt text](https://github.com/maulanaahmadarif/flex-by-me/blob/master/dist/images/example4.png)
+
+```html
+<div class="row-fx justify-center">
+    <div class="fx-6">
+        .justify-center
+    </div>
+</div>
+<div class="row-fx justify-end">
+    <div class="fx-6">
+        .justify-end
+    </div>
+</div>
+<div class="row-fx justify-start">
+    <div class="fx-6">
+        .justify-start
     </div>
 </div>
 ```
