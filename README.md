@@ -77,3 +77,34 @@ You can justify your layout, check the example below:
     </div>
 </div>
 ```
+
+also align your layout:
+
+![alt text](https://github.com/maulanaahmadarif/flex-by-me/blob/master/dist/images/example5.png)
+
+```html
+<div class="row-fx align-items-start">
+    <div class="fx-6">
+        .align-items-start
+    </div>
+    <div class="fx-6">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta vero laboriosam consequuntur, cum excepturi inventore illum enim quo laudantium rem. Amet nihil rerum, tempora illo est veniam odio exercitationem facere!
+    </div>
+</div>
+<div class="row-fx align-items-center">
+    <div class="fx-6">
+        .align-items-center
+    </div>
+    <div class="fx-6">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta vero laboriosam consequuntur, cum excepturi inventore illum enim quo laudantium rem. Amet nihil rerum, tempora illo est veniam odio exercitationem facere!
+    </div>
+</div>
+<div class="row-fx align-items-end">
+    <div class="fx-6">
+        .align-items-end
+    </div>
+    <div class="fx-6">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta vero laboriosam consequuntur, cum excepturi inventore illum enim quo laudantium rem. Amet nihil rerum, tempora illo est veniam odio exercitationem facere!
+    </div>
+</div>
+```
